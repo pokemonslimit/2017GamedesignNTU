@@ -43,7 +43,7 @@ public class Resetter : MonoBehaviour {
 		else{
 			//yield return new WaitForSeconds (3);
 				Application.LoadLevel (1);
-			
+				counter = 2;
 		}
 	
 	}
